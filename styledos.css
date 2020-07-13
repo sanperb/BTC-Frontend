@@ -1,0 +1,247 @@
+body {
+    margin:0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+header {
+    background: whitesmoke;
+    border-bottom: #d09a20 5px solid;
+
+}
+
+.logo-menu{
+    display:flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.items-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.enlace-menu {
+    list-style: none;
+}
+
+.menuprincipal a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#4d5a6b;
+}
+
+.menu-navegacion a {
+    list-style-type: none;
+}
+
+a:hover {
+    color:#d09a20;
+  }
+
+  .principal-content{
+    background-image: url("never-stop-exploring-signboard-954662.jpg");
+    background-color: whitesmoke;
+    min-height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+  .texto-principal{
+    margin-top: -25px;   
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: #4d5a6b;
+
+}
+
+.primera-linea{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.segunda-linea{
+    margin-top: -20px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.boton-principal{
+    display: flex;
+    justify-content: center;
+}
+  .boton_personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color:#4d5a6b;
+    border-radius: 2px;
+    border: 2px solid whitesmoke;
+  }
+
+/* Footer */
+
+  .site-footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background: #d09a20;
+}   
+.logo-menu-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 2;
+
+}
+
+.site-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 3;
+    font-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu-contactanos a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#4d5a6b;
+    margin-top: 20px;
+    margin-right: 35px;
+
+}
+
+#contacto-footer {
+   font-style: normal; 
+   list-style-type: none;
+}
+
+h2{
+    margin-top:-15px;
+    padding-bottom: 10px;
+}
+
+/* Formulario Contacto */
+
+.formulario-contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+    padding: 60px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #4d5a6b;
+    
+}
+
+.etiqueta{
+    font-weight: normal;
+    
+}
+form input, form textarea{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: horizontal; 
+  }
+
+  form button {
+    display: block;
+	background-color:#4d5a6b;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+    form button:hover{
+        background-color:#d09a20;
+    }
+
+    /* Formulario Usuario */
+
+    .sesion-container{
+        background-color: whitesmoke;
+        min-height: 75vh;
+    }
+
+    .background-sesion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #d5dae0;
+        padding: 50px;
+     
+    }
+
+    .inicio-sesion{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:whitesmoke;
+        padding: 60px;
+        max-width: 100%;
+        margin: 0 auto;
+        font-weight: 700;
+        color: #4d5a6b;
+        
+    }
+
+    .boton-sesion{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+	    background-color:#4d5a6b;
+        padding: 10px 45px 10px 45px;
+        margin-left: 40px;
+	    font-size: 1em; 
+	    color: 	whitesmoke;
+        font-family: "Roboto", sans-serif;
+
+    }
+    
+    .boton-sesion:hover{
+        background-color:#d09a20;
+    }
